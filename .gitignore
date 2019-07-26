@@ -77,7 +77,7 @@ typings/
 
 # Builds
 out/
-No Swears-win32-x64/
+Swear Textpad-win32-x64/
 # vuepress build output
 .vuepress/dist
 

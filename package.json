@@ -6,7 +6,8 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "build": "electron-packager . --icon=assets/icon.ico"
+    "build": "electron-packager . --icon=assets/icon.ico -all",
+    "build:host": "electron-packager . --icon=assets/icon.ico"
   },
   "author": "Jack5079",
   "devDependencies": {
