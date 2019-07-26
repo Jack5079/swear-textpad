@@ -76,7 +76,7 @@ typings/
 .nuxt
 
 # Builds
-out/
+out/*
 No Swears-win32-x64/
 # vuepress build output
 .vuepress/dist

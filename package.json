@@ -1,12 +1,12 @@
 {
-  "name": "no-swearing",
-  "productName": "No Swears",
-  "version": "1.0.0",
+  "name": "swear-textpad",
+  "productName": "Swear Textpad",
+  "version": "1.1.0",
   "description": "remove swears in a textarea",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "build": "electron-packager . --icon=assets/icon.ico"
+    "build": "electron-packager ./out/ --icon=assets/icon.ico"
   },
   "author": "Jack5079",
   "devDependencies": {
