@@ -28,11 +28,3 @@ steps:
     npm run build
   displayName: 'Build'
 
-- task: GitHubRelease@0
-  inputs:
-    gitHubConnection: 'noob'
-    repositoryName: 'Jack5079/swear-textpad'
-    action: 'create'
-    target: '$(Build.SourceVersion)'
-    tagSource: 'auto'
-    assets: '$(Build.ArtifactStagingDirectory)/Swear Textpad-win32-x64/*'
