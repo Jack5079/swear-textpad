@@ -21,13 +21,5 @@ steps:
 
 
 - script: |
-    npm run build:win
-  displayName: 'Build for Windows'
-
-- script: |
-    npm run build:mac
-  displayName: 'Build for macOS'
-
-- script: |
-    npm run build:linux
-  displayName: 'Build for Linux'
+    npm run build
+  displayName: 'Build'
