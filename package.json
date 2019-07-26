@@ -7,7 +7,10 @@
   "scripts": {
     "start": "electron .",
     "build": "electron-packager . --icon=assets/icon.ico -all",
-    "build:host": "electron-packager . --icon=assets/icon.ico"
+    "build:host": "electron-packager . --icon=assets/icon.ico",
+    "build:win": "electron-packager . --icon=assets/icon.ico --platform=win32",
+    "build:mac": "electron-packager . --icon=assets/icon.ico --platform=darwin",
+    "build:linux": "electron-packager . --icon=assets/icon.ico --platform=linux"
   },
   "author": "Jack5079",
   "devDependencies": {
